@@ -1,0 +1,73 @@
+/*body {
+    background-image: url(coffee.jpg);
+    background-size: cover;
+}*/
+
+.banner {
+    min-height: 100vh;
+    position: relative;
+    background-image: url(coffee.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 80%;
+}
+
+.content {
+    margin-top: 200px;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+.section-content {
+    text-align: center;
+}
+
+.banner, .about {
+    position: relative;
+    min-height: 100vh;
+}
+
+.display-6 {
+    font-size: 1rem;
+}
+
+.social label a {
+    font-size: 25px;
+    margin: 0 3px;
+    color: #ffffff;
+}
+
+.copy {
+    font-size: 14px;
+}
+
+.social {
+    text-align: center;
+    line-height: 30px;
+}
+
+
+
+@media(min-widht:576px) {
+    .display-1 {
+        font-size: 6rem;
+    }
+    .section-content {
+        padding: 100px 0;
+    }
+
+    .display-6 {
+        font-size: 2rem;
+    }
+
+    .copy, .social {
+        padding-top: 10px;
+        line-height: 30px;
+    }
+
+    .social label a {
+        font-size: 30px;
+    }
+}
